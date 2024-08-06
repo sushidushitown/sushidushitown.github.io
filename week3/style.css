@@ -1,0 +1,66 @@
+*{
+    color: hotpink;
+    font-family: "Grey Qo", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+/* i chose this cause etc this is a comment */
+h1{
+    color: aqua;
+    font-size: 1rem;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    color: blueviolet;
+    font-size: 1.6rem;
+    
+    }
+ h2{
+        color: blue;
+    }
+p{
+    color: chartreuse;
+}
+p,
+h3, .my-class
+h3{
+    color: lightcoral;
+}
+.my-class{
+    color: orange;
+}
+#my-class{
+    color: darkcyan;
+}
+p > strong {
+    color: blue;
+}
+span {
+    display: block;
+}
+article {
+    text-align: center;
+    border: 1px solid black;
+    padding: 1cm;
+    font-weight: bold;
+    font: 20px
+}
+p{
+    border: 1px dotted blue;
+    padding: 10px;
+    /* width: 200px; */
+    line-height: 1.7;
+    background-color: rgb(173, 19, 19);
+}
+p:hover{
+    color: aquamarine;
+}
+a:hover{
+    color: chartreuse;
+}
