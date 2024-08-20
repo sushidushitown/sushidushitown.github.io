@@ -2,11 +2,18 @@ body{
     background-color: rgb(230, 200, 252);
     text-align: center;
     padding: 5%;
-    
+    line-height: 1.2;
 }
 img{
     max-width: 500px;
 }
  header{
     font-weight:bold;
+   
  }
+ header.my-class1{
+    font-size:medium;
+    padding-top:5%
+ }
+ ;
+ 
