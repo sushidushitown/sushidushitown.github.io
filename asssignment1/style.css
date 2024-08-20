@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(230, 200, 252);
+    text-align: center;
+    padding: 5%;
+    
+}
+img{
+    max-width: 500px;
+}
+ header{
+    font-weight:bold;
+ }
