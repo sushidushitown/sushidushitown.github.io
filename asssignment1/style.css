@@ -3,6 +3,7 @@ body{
     text-align: center;
     padding: 5%;
     line-height: 1.2;
+    grid: 0cm;
 }
 img{
     max-width: 500px;
@@ -15,5 +16,10 @@ img{
     font-size:medium;
     padding-top:5%
  }
- ;
  
+ h1 .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
