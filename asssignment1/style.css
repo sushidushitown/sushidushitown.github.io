@@ -1,25 +1,33 @@
-body{
-    background-color: rgb(230, 200, 252);
-    text-align: center;
-    padding: 5%;
-    line-height: 1.2;
-    grid: 0cm;
+body {
+  background-color: rgb(230, 200, 252);
+  text-align: center;
+  padding: 5%;
+  line-height: 1.2;
+  grid: 0cm;
+  font-family: jersey;
 }
-img{
-    max-width: 500px;
+img {
+  max-width: 500px;
 }
- header{
-    font-weight:bold;
-   
- }
- header.my-class1{
-    font-size:medium;
-    padding-top:5%
- }
- 
- h1 .bebas-neue-regular {
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+header {
+  font-weight: bold;
   
+}
+header.my-class1 {
+  font-size: medium;
+  padding-top: 5%;
+  font-family: paytone one;
+  color: rgba(88, 56, 151, 0.915);
+}
+
+h1{
+   color: rgb(247, 236, 115);
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: Rubik bubbles;
+}
+
+header.my-class2{
+   color: rgb(247, 236, 115);
+   font-family: rubik bubbles;
+}
