@@ -4,7 +4,7 @@ body {
   padding: 5%;
   line-height: 1.2;
   grid: 0cm;
-  font-family: jersey;
+
 }
 img {
   max-width: 500px;
@@ -20,14 +20,25 @@ header.my-class1 {
   color: rgba(88, 56, 151, 0.915);
 }
 
-h1{
-   color: rgb(247, 236, 115);
-   font-size: 40px;
-   text-transform: uppercase;
-   font-family: Rubik bubbles;
+h1 {
+  color: rgb(247, 236, 115);
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: Rubik bubbles;
+  border-style: double;
+  border-width: 5px 5px;
+  border-radius: 30px;
+  border-color: aliceblue;
 }
 
-header.my-class2{
-   color: rgb(247, 236, 115);
-   font-family: rubik bubbles;
+header.my-class2 {
+  color: rgb(247, 236, 115);
+  font-family: rubik bubbles;
+  text-decoration: underline aliceblue 3px;
+  
+}
+p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: rgb(150, 120, 242);
 }
