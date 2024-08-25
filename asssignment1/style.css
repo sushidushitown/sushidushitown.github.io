@@ -4,14 +4,13 @@ body {
   padding: 28%;
   line-height: 1.2;
   grid: 0cm;
-
+  /* i chose the bakcground colour for purple as it matches the aesthetic of the webpage */
 }
 img {
   max-width: 500px;
 }
 header {
   font-weight: bold;
-  
 }
 header.my-class1 {
   font-size: medium;
@@ -19,7 +18,7 @@ header.my-class1 {
   color: rgba(88, 56, 151, 0.915);
   padding: 10%;
 }
-
+/* i used a darker shade and the font as it makes it easier to distinguish the questions */
 h1 {
   color: rgb(247, 236, 115);
   font-size: 40px;
@@ -35,16 +34,18 @@ header.my-class2 {
   color: rgb(247, 236, 115);
   font-family: rubik bubbles;
   text-decoration: underline aliceblue 3px;
-  
+  /* i used this yello and this font as it stays in the aesthetic of Luniverse, and the font reflects the floating elements of the page */
 }
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: rgb(150, 120, 242);
 }
-li{
-   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+li {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   color: rgb(150, 120, 242);
-  
+}
+video {
+  max-width: 500px;
 }
