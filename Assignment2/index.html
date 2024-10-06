@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <!-- add the font family of your choice -->
+
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
@@ -12,19 +12,25 @@
       href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
       rel="stylesheet"
     />
+    <!-- i got the font fron google font. i chose this font as it was light and soft tothe eyes, which would make the website appearance less harsh, and more approachable for users -->
     <script src="https://kit.fontawesome.com/2475510d56.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
       <h1>Relaxation 101</h1>
+      <!-- the title was chosen as relaxation 101 as it goes staright to the point -->
     </header>
 
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
+        <!-- this page will show categories and popular sounds  -->
         <li><a href="#">Latest</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Downloads</a></li>
+        <!-- the page will be the current one -->
+        <li><a href="#">Favourties</a></li>
+        <!-- this page will show the "liked" songs -->
+        <li><a href="#">Free downloads</a></li>
+        <!-- this page will show the sounds that can be dwonloaded for free -->
         <!-- i changed the navigation options to suit the concept of the website. Latest coould display the recently published sounds, whilst about would give me overview of the company. Download would redirect them to apple music or spotify for download -->
       </ul>
     </nav>
@@ -36,57 +42,50 @@
 <!-- the introduction of the website was added to give users a better understanding of the contents and set the tone for the website. i centralised the text for easy alignment and reading. It seemed softer on the eyes -->
     <main class="container">
       <div class="media-player">
+        <!-- i used a new header for each ambient song as its a new set for each song  -->
         <h2>
           Ethereal echo
           <img
             src="Firefly relaxing painted image of a dark blue beach 7086.jpg"
             id="beach"
             alt="this is my beach"
-            
           />
         </h2>
+        <!-- i sourced my images from fire fly, to ensure that the images were unique to my project -->
         
         <audio id="custom-audio-player" controls>
           <source src="erokia_ambient-wave-56-msfxp7-78.mp3" type="audio/mp3" />
         </audio>
         <p class="my-class">
             <i class="fa fa-heart" width="40" ></i>
-            <!-- i added a heart -->
-            <!-- <i class="fa fa-heart" width="40" id="heart2"></i> 
-           <i class="fa fa-heart" width="40" id="heart3"></i> 
-        </p> -->
-        <!-- <p class="my-class1">
-            <i class="fa fa-heart" width="40" ></i>
-        </p>
-
-        <p class="my-class2">
-            <i class="fa fa-heart" width="40" ></i>
-        </p> --> 
-
+            <!-- i added a heart as a "liking" funvtion, to add to a favourties list, to act as a playlist in the website. It will turn red when clicked. I faced issues of not being able to have it stay red, and this will have to be revised moving forward-->
         
-      
       <h3>Peaceful Night</h3>
       <img src="dark sky.jpg" alt="" />
       <audio src="yesterday.mp3" controls></audio>
+
+      <!-- a new p was made as this was the easiest way for me to visualise and organise my styling and css when it came to adding colour. It helped me visualise my codes better and its functions -->
       <p class="my-class">
         <i class="fa fa-heart" width="40" ></i>
       <h4>Natures call</h4>
       <img src="garden.jpg" alt="" />
       <audio src="bensound-westwood (1).mp3" controls></audio>
+    
       <p class="my-class">
         <i class="fa fa-heart" width="40" ></i>
-
+<!-- the width function was added here, but it wasnt very effective -->
         <p>
             Want to share your sounds with other students? Email us at 
-            <!-- Relaxation101@ambientnoise.com -->
+            <!-- Relaxation101@ambientnoise.com is a fake email that is made for this assignment, it will not actually work--> 
         </p>
         <p class="my-class1">Relaxation101@ambientnoise.com</p>
     </main>
-<!-- i maintained a blue theme throughout the website to show cohesiveness and  -->
+<!-- i maintained a blue theme throughout the website to show cohesiveness and through research, it showed to be an effective soothing colour, that promotes destressing -->
     <footer>
       <p>&copy; 2024 Media Player Website. All rights reserved.</p>
       <a href="https://kit.fontawesome.com/2475510d56.js">Heart</a> icon by
-      <a href="https://icons8.com">FA</a>
+      <a href="https://fontawesome.com/kits">FA</a>
+      <!-- i changed these accordignly, to match my assignment. the Heart icon was sourced from a website i found on w3schools -->
       
     </footer>
   </body>
