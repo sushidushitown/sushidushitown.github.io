@@ -1,0 +1,261 @@
+:root {
+  --primary-bg-color: hsl(185, 90%, 92%);
+  --text-color: #333;
+  --main-bg-color: #2a7489;
+  --main-text-color: #fff;
+  --main-btn-bg-color: #938989;
+}
+
+body,
+h1,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--primary-bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Add additional styles as needed */
+
+/* Create a container for the main content */
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Header styling */
+header {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* Navigation styling */
+nav {
+  /* margin-top: 20px; */
+  text-align: center;
+  border-style: solid;
+  border-color: #2a7489;
+  background-color: #2a7489;
+  --text-color: #f7f3f3;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+}
+
+
+nav ul li {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+/* Media player styling */
+.media-player {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.media-player video {
+  max-width: 100%;
+}
+
+.custom-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.custom-controls button {
+  background-color: var(--main-btn-bg-color);
+  color: var(--main-text-color);
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.progress-bar span {
+  display: block;
+  height: 100%;
+  background-color: var(--main-bg-color);
+  width: 0;
+  transition: width 0.3s ease;
+}
+
+/* Footer styling */
+footer {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+img {
+  max-width: 600px;
+  margin-top: 2%;
+  margin-right: auto;
+  flex: content;
+}
+.img.hover {
+  border-radius: 50%;
+}
+
+audio {
+  padding-top: 2%;
+}
+
+p {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+}
+
+h2 {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: 20px;
+  font-size: larger;
+  font-weight: 500;
+  padding-top: 5%;
+}
+.my-class {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 0%;
+}
+h3 {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: 20px;
+  font-size: larger;
+  font-weight: 500;
+  padding-top: 5%;
+}
+h4 {
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: 20px;
+  font-size: larger;
+  font-weight: 500;
+  padding-top: 5%;
+}
+
+.img {
+  cursor: pointer;
+}
+
+img:hover {
+  border-radius: 50%;
+}
+
+p.my-class {
+  margin-top: 1%;
+  margin-right: 76%;
+  flex-direction: row-reverse;
+  display: block;
+  color: #2a7489;
+  text-align: left;
+  
+}
+p.my-class:hover{
+    color: #b20606;
+}
+
+p.my-class1{
+    margin-top: 0%;
+    color: #2a7489;
+    font-weight: 800;
+}
+p.my-class1:hover{
+    color: #0206c4;
+    text-decoration: underline;
+}
+
+
+/* p.my-class:active{
+color: #f00808;
+}
+
+p.my-class: */
+
+
+
+/* p.my.heart1:hover{
+
+    color: #0a0956;
+} */
+
+/* p.my-class1{
+    margin-top: 1%;
+    margin-right: 76%;
+    flex-direction: row-reverse;
+    display: block;
+    color: #2a7489;
+    text-align: left;
+
+}
+p.my-class1:hover{
+    color: #0a0956;
+}
+
+p.my-class2{
+    margin-top: 1%;
+    margin-right: 80%;
+    flex-direction: row-reverse;
+    display: block;
+    color: #2a7489;
+    text-align: left;
+
+}
+
+p.my-class2:hover{
+    color: #0a0956;
+} */
