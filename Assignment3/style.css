@@ -11,14 +11,15 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  background-color: #928989; /* Light background color */
+  background-color: #928989; 
 }
 
 header {
-  background: #a00574; /* Header color */
+  background: #a00574; 
   color: white;
   padding: 60px 0;
   text-align: center;
+  
 }
 
 h2 {
@@ -27,45 +28,57 @@ h2 {
 
 main {
   padding: 80px;
-  max-width: 1200px; /* Max width for main content */
-  margin: auto; /* Center align */
+  max-width: 1200px;
+  margin: auto; 
 }
 
 .gallery {
-  display: grid; /* Use CSS Grid for layout */
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  grid-template-rows: repeat(5, 200px); /* 5 rows, each 200px high */
-  gap: 90px; /* Space between images */
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(5, 200px); 
+  gap: 120px; 
   margin-left: 14%;
   margin-right: 10%;
 }
 
 .gallery img {
-  width: 80%; /* Make images responsive */
-  height: 120%; /* Fill the grid cell */
-  object-fit: cover; /* Maintain aspect ratio while covering the cell */
-  border-radius: 20px; /* Slightly rounded corners */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  transition: transform 0.3s; /* Animation effect */
+  width: 80%; 
+  height: 120%; 
+  object-fit: cover; 
+  border-radius: 20px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s; 
 }
 
 .gallery img:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  transform: scale(1.05); 
 }
 
 footer {
   text-align: center;
   padding: 10px 0;
-  background: #333; /* Footer color */
+  background: #333; 
   color: white;
   position: relative;
   bottom: 0;
   width: 100%;
-  margin-top: 20px; /* Space above footer */
+  margin-top: 20px; 
 }
 
 .permanent-marker-regular {
   font-family: "Permanent Marker", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.description {
+    margin-top: 1px; 
+    font-family: "Permanent Marker", cursive; 
+    font-size: 20px; 
+    color: #03174a;
+    text-align: center; 
+    margin-right: 24%;
+    background-color: rgba(245, 244, 210, 0.7);
+border-radius:50%;
+   
 }
